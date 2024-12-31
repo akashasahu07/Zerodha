@@ -52,6 +52,10 @@ ul, li {
 }
 
 @media (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+
     .list li {
         display: none;
     }
@@ -62,5 +66,19 @@ ul, li {
 
     .menu {
         margin-right: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 15px 5%; /* Reduce padding for medium screens */
+    }
+
+    .zerodha-logo {
+        margin-left: 0;
+    }
+
+    .menu {
+        display: block; /* Show menu icon */
     }
 }
