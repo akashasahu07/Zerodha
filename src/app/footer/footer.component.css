@@ -84,12 +84,4 @@
     .footer {
         padding: 10px;
     }
-
-    .s-1 p, .s-2 p {
-        font-size: 0.7rem; /* Smaller font size for very small screens */
-    }
-
-    h3 {
-        font-size: 0.9rem; /* Adjust heading size */
-    }
 }
