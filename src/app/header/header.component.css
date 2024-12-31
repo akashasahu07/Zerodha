@@ -1,0 +1,66 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.zerodha-logo {
+    height: 20px;
+    cursor: pointer;
+    width: 8.3rem;
+    margin-left: 12rem;
+}
+
+.list {
+    display: flex;
+    gap: 40px;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #828282;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu {
+    height: 25px;
+    cursor: pointer;
+    margin-right: 13.5rem;
+}
+
+.list li:hover {
+    color: #70a8f2;
+}
+
+@media (max-width: 768px) {
+    .list li {
+        display: none;
+    }
+
+    .zerodha-logo {
+        margin-left: 15px;
+    }
+
+    .menu {
+        margin-right: 15px;
+    }
+}
