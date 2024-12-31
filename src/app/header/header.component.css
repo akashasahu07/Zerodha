@@ -6,13 +6,16 @@ ul, li {
 }
 
 .header {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
 }
 
 .zerodha-logo {

@@ -1,0 +1,197 @@
+main {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.Sec-1 {
+    width: fit-content;
+    margin: 10vh auto;
+    text-align: center;
+    padding: 0 20px 120px 20px;
+}
+
+.Sec-1 img {
+    margin-bottom: 60px;
+    max-height: 45vh;
+    max-width: 100%;
+}
+
+.Sec-1 h1 {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.Sec-1 p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Sec-1 button {
+    margin-top: 25px;
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Sec-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 12rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 1;
+}
+
+.text p {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.8;
+    width: 75%;
+}
+
+.text h3 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.text h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.text span {
+    color: #387ed1;
+    cursor: pointer;
+}
+
+.text span:hover {
+    color: black;
+}
+
+.img {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+}
+
+.img p {
+    color: #387ed1;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.img p:hover {
+    color: black;
+}
+
+.image {
+    position: relative;
+    top: 200%;
+    left: 25%;
+    margin-bottom: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .Sec-1 h1 {
+        font-size: 2rem;
+    }
+
+    .Sec-1 p {
+        font-size: 1rem;
+    }
+
+    .Sec-1 button {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .Sec-2 {
+        padding: 20px 10px;
+    }
+
+    .text h2 {
+        font-size: 1.75rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .img img {
+        width: 100%; /* Adjust image size for smaller screens */
+    }
+
+    .image {
+        top: 100%; /* Adjust position for smaller screens */
+        left: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Sec-1 h1 {
+        font-size: 1.75rem;
+    }
+
+    .Sec-1 p {
+        font-size: 0.9rem;
+    }
+
+    .Sec-1 button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .Sec-2 {
+        flex-direction: column; /* Stack content vertically */
+        gap: 15px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .img img {
+        width: 90%; /* Adjust image size for very small screens */
+    }
+
+    .image {
+        top: 50%; /* Adjust position for very small screens */
+        left: 5%;
+    }
+}
