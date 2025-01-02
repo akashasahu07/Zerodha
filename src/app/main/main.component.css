@@ -321,6 +321,10 @@ button {
     .text span {
         font-size: 0.8rem; /* Further reduce font size */
     }
+
+    .Sec-5 {
+        margin: 5rem 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
