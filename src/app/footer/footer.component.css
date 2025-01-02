@@ -10,6 +10,7 @@
 }
 
 .s-1 img {
+    padding-top: 10px;
     height: 20px;
     cursor: pointer;
     margin-bottom: 20px;
@@ -65,8 +66,7 @@
     }
 
     .s-1, .s-2, .icons {
-        text-align: center; /* Center-align text content */
-        margin: auto;
+        text-align: center;
     }
 
 }
